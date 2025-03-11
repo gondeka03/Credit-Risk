@@ -68,6 +68,30 @@ The dataset included in this repository is anonymized and does not contain any p
 
 ---
 
+## Models Used
+The following models were trained and evaluated:
+- **Random Forest Classifier**
+- **Bagging Classifier**
+- **Extra Trees Classifier**
+- **Gradient Boosting Classifier**
+- **Logistic Regression**
+- **Support Vector Machine (SVM)**
+- **Naive Bayes Classifier**
+- **Decision Tree Classifier**
+
+```
+
+## How to Use
+1. Run `model_building.ipynb` to train and save the models.
+2. Run `model_evaluation.ipynb` to evaluate and compare models.
+
+## Evaluation Metrics
+Each model is evaluated using:
+- **Accuracy**
+- **Precision, Recall, F1-score**
+- **Confusion Matrix**
+- **ROC Curve and AUC Score**
+
 ## Installation
 To clone and run the project locally:
 ```bash
