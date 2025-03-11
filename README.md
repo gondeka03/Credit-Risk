@@ -1,9 +1,9 @@
-# 📊 Credit-Risk
+#  Credit-Risk
 A machine learning project to assess credit risk based on customer data. The goal is to predict credit risk by analyzing historical data using various machine learning models.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 - `data/`: Contains raw data files (CSV format).
 - `notebooks/`: Jupyter Notebooks for different stages:
    - `data_preprocessing/`: EDA and data cleaning steps.
@@ -12,12 +12,12 @@ A machine learning project to assess credit risk based on customer data. The goa
 
 ---
 
-## ⚠️ Data Disclaimer
+##  Data Disclaimer
 The dataset included in this repository is anonymized and does not contain any personally identifiable information (PII). It is shared for educational and research purposes only.
 
 ---
 
-## 🗂️ Dataset Description
+##  Dataset Description
 | **Column Name** | **Description**                                                                                     |
 |-----------------|-----------------------------------------------------------------------------------------------------|
 | `X1`            | Aggregate risk indicator score.                                                                      |
@@ -47,7 +47,7 @@ The dataset included in this repository is anonymized and does not contain any p
 
 ---
 
-## 🔄 Data Preprocessing
+## Data Preprocessing
 - **Handling Missing Values:** 
   - Imputed using median for numerical features.
   - Mode for categorical features.
@@ -60,7 +60,7 @@ The dataset included in this repository is anonymized and does not contain any p
 
 ---
 
-## 📈 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 - **Key Insights:**
    - Distribution analysis for numerical features.
    - Correlation heatmap to identify relationships.
@@ -68,7 +68,7 @@ The dataset included in this repository is anonymized and does not contain any p
 
 ---
 
-## 🚀 Installation
+## Installation
 To clone and run the project locally:
 ```bash
 git clone https://github.com/gondeka03/Credit-Risk.git
