@@ -1,23 +1,15 @@
-#  Credit-Risk
+
+# Credit-Risk
 A machine learning project to assess credit risk based on customer data. The goal is to predict credit risk by analyzing historical data using various machine learning models.
 
 ---
 
-##  Folder Structure
-- `data/`: Contains raw data files (CSV format).
-- `notebooks/`: Jupyter Notebooks for different stages:
-   - `data_preprocessing/`: EDA and data cleaning steps.
-   - `model_building/`: Model training and evaluation.
-- `src/`: Optional scripts for data processing and models.
-
----
-
-##  Data Disclaimer
+## Data Disclaimer
 The dataset included in this repository is anonymized and does not contain any personally identifiable information (PII). It is shared for educational and research purposes only.
 
 ---
 
-##  Dataset Description
+## Dataset Description
 | **Column Name** | **Description**                                                                                     |
 |-----------------|-----------------------------------------------------------------------------------------------------|
 | `X1`            | Aggregate risk indicator score.                                                                      |
@@ -79,11 +71,19 @@ The following models were trained and evaluated:
 - **Naive Bayes Classifier**
 - **Decision Tree Classifier**
 
-```
+---
+
+## Model Evaluation and Saving
+In the model evaluation stage, the **Random Forest Classifier** was chosen as the best-performing model based on the evaluation metrics. After training, the model is saved as a `.pkl` file, ensuring it persists across different notebooks without needing to retrain. This allows for easier reuse of the model for predictions or further analysis.
+
+---
 
 ## How to Use
 1. Run `model_building.ipynb` to train and save the models.
-2. Run `model_evaluation.ipynb` to evaluate and compare models.
+2. Run `model_evaluation.ipynb` to evaluate and compare models. During this process, the Random Forest Classifier will be selected as the final model.
+3. The trained model will be saved as a `.pkl` file, which can be used in future notebooks for making predictions without retraining.
+
+---
 
 ## Evaluation Metrics
 Each model is evaluated using:
@@ -91,6 +91,8 @@ Each model is evaluated using:
 - **Precision, Recall, F1-score**
 - **Confusion Matrix**
 - **ROC Curve and AUC Score**
+
+---
 
 ## Installation
 To clone and run the project locally:
